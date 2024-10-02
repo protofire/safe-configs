@@ -1,0 +1,41 @@
+[
+  {
+    "url": "https://apps.safe.protofire.io/tx-builder",
+    "name": "Transaction Builder",
+    "iconUrl": "https://assets.safe.optimism.io/safe_apps/1/icon.png",
+    "description": "Compose custom contract interactions and batch them into a single transaction",
+    "tags": [
+      "dashboard-widgets",
+      "Infrastructure",
+      "transaction-builder"
+    ],
+    "features": [
+      "BATCHED_TRANSACTIONS"
+    ]
+  },
+  {
+    "url": "https://apps.safe.protofire.io/wallet-connect",
+    "name": "WalletConnect",
+    "iconUrl": "https://assets.safe.optimism.io/safe_apps/2/icon.png",
+    "description": "Connect your Safe to any dApp that supports WalletConnect",
+    "tags": [
+      "dashboard-widgets",
+      "Infrastructure",
+      "wallet-connect"
+    ]
+  },
+  {
+    "url": "https://airdrop.safe.protofire.io",
+    "name": "CSV Airdrop v2.4.0",
+    "iconUrl": "https://assets.safe.optimism.io/safe_apps/3/icon.png",
+    "description": "Upload your CSV transfer file to send arbitrarily many tokens of various amounts to a list of recipients.",
+    "tags": [
+      "Accounting",
+      "Payments",
+      "Tooling"
+    ],
+    "features": [
+      "BATCHED_TRANSACTIONS"
+    ]
+  }
+]
