@@ -57,14 +57,14 @@ Add the new chain's configuration to the `configs/chains.json` file. Ensure the 
 }
 ```
 
-Alternatiely, blockExplorer and RPC can be provided simply as a URL, in which case the script will attempt to autodetect the rest of the data, example:
+Alternatiely, blockExplorer and RPC can be provided simply as an URL, in which case the script will attempt to autodetect the rest of the data, example:
 
 ```json
 {
   "chainId": "12345",
 ...
   "rpcUri": "https://rpc.newchain.com",
-  "blockExplorer": "https://explorer.newchain.com/"
+  "blockExplorerUri": "https://explorer.newchain.com/"
 }
 ```
 
