@@ -6803,5 +6803,146 @@
       "value": "https://rpc.viction.xyz"
     },
     "shortName": "tomo"
+  },
+  {
+    "chainId": "130",
+    "chainName": "Unichain",
+    "description": "Unichain Mainnet",
+    "chainLogoUri": "icons/chains/140.png",
+    "l2": true,
+    "isTestnet": false,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoUri": "icons/currencies/ETH.png"
+    },
+    "transactionService": "https://transaction-unichain.placeholder.xyz",
+    "blockExplorerUriTemplate": {
+      "address": "https://uniscan.xyz/address/{{address}}",
+      "txHash": "https://uniscan.xyz/tx/{{txHash}}",
+      "api": "https://uniscan.xyz/api?module={{module}}&action={{action}}&address={{address}}&apiKey={{apiKey}}"
+    },
+    "ensRegistryAddress": null,
+    "features": [
+      "CONTRACT_INTERACTION",
+      "EIP1271",
+      "EIP1559",
+      "ERC721",
+      "NATIVE_WALLETCONNECT",
+      "SAFE_APPS"
+    ],
+    "gasPrice": [],
+    "publicRpcUri": {
+      "authentication": "NO_AUTHENTICATION",
+      "value": "https://mainnet.unichain.org"
+    },
+    "rpcUri": {
+      "authentication": "NO_AUTHENTICATION",
+      "value": "https://mainnet.unichain.org"
+    },
+    "safeAppsRpcUri": {
+      "authentication": "NO_AUTHENTICATION",
+      "value": "https://mainnet.unichain.org"
+    },
+    "shortName": "unichain",
+    "balancesProvider": {
+      "chainName": "ethereum",
+      "enabled": true
+    }
+  },
+  {
+    "chainId": "146",
+    "chainName": "Sonic",
+    "description": "Sonic Mainnet",
+    "chainLogoUri": "icons/chains/146.png",
+    "l2": true,
+    "isTestnet": false,
+    "nativeCurrency": {
+      "name": "Sonic",
+      "symbol": "S",
+      "decimals": 18,
+      "logoUri": "icons/currencies/S.png"
+    },
+    "transactionService": "https://transaction-sonic.placeholder.xyz",
+    "blockExplorerUriTemplate": {
+      "address": "https://explorer.soniclabs.com/address/{{address}}",
+      "txHash": "https://explorer.soniclabs.com/tx/{{txHash}}",
+      "api": "https://explorer.soniclabs.com/api?module={{module}}&action={{action}}&address={{address}}&apiKey={{apiKey}}"
+    },
+    "ensRegistryAddress": null,
+    "features": [
+      "CONTRACT_INTERACTION",
+      "EIP1271",
+      "EIP1559",
+      "ERC721",
+      "NATIVE_WALLETCONNECT",
+      "SAFE_APPS"
+    ],
+    "gasPrice": [],
+    "publicRpcUri": {
+      "authentication": "NO_AUTHENTICATION",
+      "value": "https://rpc.soniclabs.com"
+    },
+    "rpcUri": {
+      "authentication": "NO_AUTHENTICATION",
+      "value": "https://rpc.soniclabs.com"
+    },
+    "safeAppsRpcUri": {
+      "authentication": "NO_AUTHENTICATION",
+      "value": "https://rpc.soniclabs.com"
+    },
+    "shortName": "sonic",
+    "balancesProvider": {
+      "chainName": "sonic",
+      "enabled": true
+    }
+  },
+  {
+    "chainId": "57073",
+    "chainName": "Ink",
+    "description": "Ink Mainnet",
+    "chainLogoUri": "icons/chains/57073.png",
+    "l2": true,
+    "isTestnet": false,
+    "nativeCurrency": {
+      "name": "Ether",
+      "symbol": "ETH",
+      "decimals": 18,
+      "logoUri": "icons/currencies/ETH.png"
+    },
+    "transactionService": "https://transaction-ink.placeholder.xyz",
+    "blockExplorerUriTemplate": {
+      "address": "https://explorer.inkonchain.com/address/{{address}}",
+      "txHash": "https://explorer.inkonchain.com/tx/{{txHash}}",
+      "api": "https://explorer.inkonchain.com/api?module={{module}}&action={{action}}&address={{address}}&apiKey={{apiKey}}"
+    },
+    "ensRegistryAddress": null,
+    "features": [
+      "CONTRACT_INTERACTION",
+      "EIP1271",
+      "EIP1559",
+      "ERC721",
+      "NATIVE_WALLETCONNECT",
+      "SAFE_APPS"
+    ],
+    "gasPrice": [],
+    "publicRpcUri": {
+      "authentication": "NO_AUTHENTICATION",
+      "value": "https://rpc-gel.inkonchain.com"
+    },
+    "rpcUri": {
+      "authentication": "NO_AUTHENTICATION",
+      "value": "https://rpc-gel.inkonchain.com"
+    },
+    "safeAppsRpcUri": {
+      "authentication": "NO_AUTHENTICATION",
+      "value": "https://rpc-gel.inkonchain.com"
+    },
+    "shortName": "ink",
+    "balancesProvider": {
+      "chainName": "ethereum",
+      "enabled": true
+    }
   }
 ]
