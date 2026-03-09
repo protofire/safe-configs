@@ -1,0 +1,13 @@
+{
+  "url": "https://apps.safe.protofire.io/tx-builder",
+  "name": "Transaction Builder",
+  "iconUrl": "icons/safeApps/transaction-builder.png",
+  "description": "Compose custom contract interactions and batch them into a single transaction",
+  "tags": [
+    "Infrastructure",
+    "transaction-builder"
+  ],
+  "features": [
+    "BATCHED_TRANSACTIONS"
+  ]
+}
