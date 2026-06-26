@@ -35,11 +35,7 @@ Add the new chain's configuration to the `configs/chains.json` file. Ensure the 
     "api": "https://api.newchainexplorer.com/api?module={{module}}&action={{action}}&address={{address}}&apiKey={{apiKey}}"
   },
   "ensRegistryAddress": null,
-  "features": [
-    "CONTRACT_INTERACTION",
-    "ERC1155",
-    "ERC721"
-  ],
+  "features": ["CONTRACT_INTERACTION", "ERC1155", "ERC721"],
   "gasPrice": [],
   "publicRpcUri": {
     "authentication": "NO_AUTHENTICATION",
@@ -75,6 +71,7 @@ Ensure the `.env` file in your configuration service is set up correctly to impo
 ```env
 CONFIG_URL=https://raw.githubusercontent.com/protofire/safe-configs/refs/heads/main/
 DEFAULT_CHAIN_IDS=1,10,5000
+IMPORT_SERVICES=1
 IMPORT_FEATURES=1
 IMPORT_WALLETS=1
 IMPORT_SAFE_APPS=1
@@ -82,6 +79,7 @@ IMPORT_SAFE_APPS=1
 
 - `CONFIG_URL`: Url to the configuration files.
 - `DEFAULT_CHAIN_IDS`: Set to `ALL` to import all chains listed in `chains.json`. Alternatively, specify a comma-separated list of chain IDs to import specific chains.
+- `IMPORT_SERVICES`: Set to `1` to import services.
 - `IMPORT_FEATURES`: Set to `1` to import features.
 - `IMPORT_WALLETS`: Set to `1` to import wallets.
 - `IMPORT_SAFE_APPS`: Set to `1` to import safe apps.
@@ -106,6 +104,7 @@ The import script is located at `.internal/import_default_config.py`. It handles
 
 - `load_json_data`: Loads JSON data from a file or URL.
 - `handle`: Main function that orchestrates the import process.
+- `import_services`: Imports services from `services.json`.
 - `import_features`: Imports features from `features.json`.
 - `import_wallets`: Imports wallets from `wallets.json`.
 - `import_safe_apps`: Imports safe apps from `safeApps.json`.
@@ -121,6 +120,10 @@ The script automatically adds default wallets and features to each chain. The de
 - Ledger
 - Trezor
 - WalletConnect_v2
+
+#### Default Services
+
+- WALLET_WEB
 
 #### Default Features
 
