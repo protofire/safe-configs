@@ -1,14 +1,5 @@
 [
   {
-    "url": "https://app.aave.com",
-    "name": "Aave v3",
-    "description": "Non-custodial liquidity protocol",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/8d6c75d7-3255-48d1-882c-edecb2aea73e/icon.png",
-    "chainIds": ["1"],
-    "tags": ["DeFi", "Lending/Borrowing"],
-    "features": []
-  },
-  {
     "url": "https://app.aura.finance/",
     "name": "Aura Finance",
     "description": "Boosting DeFi yield potential and governance power",
@@ -24,15 +15,6 @@
     "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/54/icon.png",
     "chainIds": ["1"],
     "tags": ["DeFi", "DEX"],
-    "features": []
-  },
-  {
-    "url": "https://banker.bulla.network",
-    "name": "Bulla Banker",
-    "description": "A bankless Web3 accounting protocol for invoices and payments.",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/62/icon.png",
-    "chainIds": ["1"],
-    "tags": ["Accounting", "Payments", "Tooling"],
     "features": []
   },
   {
@@ -61,15 +43,6 @@
     "chainIds": ["1"],
     "tags": ["CeFi", "DeFi", "Institutional"],
     "features": []
-  },
-  {
-    "url": "https://swap.cow.fi",
-    "name": "CoW Swap",
-    "description": "CoW Swap finds the lowest prices from all decentralized exchanges and DEX aggregators & saves you more with p2p trading and protection from MEV",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/e0ecb7c3-93c1-4598-b9ee-c24d6a798b40/icon.png",
-    "chainIds": ["1"],
-    "tags": ["Aggregator", "DAO Tooling", "MEV Protection"],
-    "features": ["BATCHED_TRANSACTIONS"]
   },
   {
     "url": "https://dump.services/",
@@ -126,24 +99,6 @@
     "features": []
   },
   {
-    "url": "https://dapp.figment.io/safe/dapp/ethereum",
-    "name": "Figment",
-    "description": "Stake your ETH and get instant rewards. No claiming, no pooling. You're always in control of your funds.",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/a29382ff-1699-4f47-834b-e5346ca324f7/icon.png",
-    "chainIds": ["1"],
-    "tags": ["Staking"],
-    "features": []
-  },
-  {
-    "url": "https://app.gelato.network",
-    "name": "Gelato",
-    "description": "Gelato: all your favorite Web3 tools in one application",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/56d23a8c-8864-4515-9412-4a934465b1e5/icon.png",
-    "chainIds": ["1"],
-    "tags": [],
-    "features": []
-  },
-  {
     "url": "https://bridge.gnosischain.com/",
     "name": "Gnosis Bridge",
     "description": "Transfer assets between Ethereum and Gnosis Chain.",
@@ -162,48 +117,12 @@
     "features": []
   },
   {
-    "url": "https://stake.lido.fi/?ref=0x5afE11DBF44AB2D88162f687e01F8DD7a8A3EEEe",
-    "name": "Lido Staking",
-    "description": "Lido is the liquid staking solution for Ethereum.",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/14/icon.png",
-    "chainIds": ["1"],
-    "tags": ["DeFi", "Staking"],
-    "features": ["BATCHED_TRANSACTIONS"]
-  },
-  {
-    "url": "https://gnosis-safe.llamapay.io/create",
-    "name": "LlamaPay",
-    "description": "Automate transactions and stream them by the second.",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/75/icon.png",
-    "chainIds": ["1"],
-    "tags": ["Accounting", "DAO Tooling", "Payments"],
-    "features": ["BATCHED_TRANSACTIONS"]
-  },
-  {
     "url": "https://vote.makerdao.com",
     "name": "Maker Governance Portal",
     "description": "Vote with or delegate your MKR tokens to help protect the integrity of the Maker protocol",
     "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/94/icon.png",
     "chainIds": ["1"],
     "tags": ["DAO Tooling", "Governance"],
-    "features": []
-  },
-  {
-    "url": "https://cow-tools-bleu-fi.vercel.app",
-    "name": "MilkmApp",
-    "description": "UI for Milkman orders",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/163/icon.png",
-    "chainIds": ["1"],
-    "tags": ["DeFi", "DEX", "Tooling"],
-    "features": []
-  },
-  {
-    "url": "https://7fdqc7dhtz7wjzvyhi543kf64pslvcazhoqu7zmzin2nu3xeqiwq.arweave.net/-UcBfGeef2TmuDo7zai-4-S6iBk7oU_lmUN02m7kgi0/index.html",
-    "name": "Mint or Redeem Liquity LUSD",
-    "description": "Simple frontend for Liquity with high kickback rate, hosted on Arweave for maximal decentralisation.",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/23/icon.png",
-    "chainIds": ["1"],
-    "tags": ["DeFi", "Stablecoin", "Yield"],
     "features": []
   },
   {
@@ -231,24 +150,6 @@
     "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/766f1da8-2dd6-42a1-b577-759920ab1832/icon.png",
     "chainIds": ["1"],
     "tags": ["Accounting"],
-    "features": []
-  },
-  {
-    "url": "https://gnosis.openocean.finance/?referrer=0x19E89c0774090C52D2117D9efE1CFB37218BE493",
-    "name": "OpenOcean",
-    "description": "The leading DEX Aggregator, offering the best swap returns across 17 chains.",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/92/icon.png",
-    "chainIds": ["1"],
-    "tags": ["Aggregator", "DeFi", "DEX"],
-    "features": []
-  },
-  {
-    "url": "https://otoco.io",
-    "name": "OtoCo",
-    "description": "Automated Company Assembly on Blockchain",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/66/icon.png",
-    "chainIds": ["1"],
-    "tags": ["DAO Tooling", "Governance"],
     "features": []
   },
   {
@@ -315,39 +216,12 @@
     "features": ["BATCHED_TRANSACTIONS"]
   },
   {
-    "url": "https://app.squidrouter.com",
-    "name": "Squid",
-    "description": "Swap tokens across EVM and Cosmos blockchains, and access apps across chains in a single click. Powered by Axelar.",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/121/icon.png",
-    "chainIds": ["1"],
-    "tags": ["Bridge", "Infrastructure"],
-    "features": []
-  },
-  {
-    "url": "https://www.stakedao.org/",
-    "name": "StakeDAO",
-    "description": "Effortless ways to grow your crypto",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/52/icon.png",
-    "chainIds": ["1"],
-    "tags": ["DeFi", "Staking", "Yield"],
-    "features": []
-  },
-  {
     "url": "https://safe.stakek.it/",
     "name": "StakeKit",
     "description": "StakeKit is the world's most powerful yield platform. Covering more than 400+ yield opportunities, StakeKit aggregates all yields across all chains and across all major DeFi providers in one place.",
     "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/af4fdc2e-5872-441d-8a68-bf890932157f/icon.png",
     "chainIds": ["1"],
     "tags": ["Aggregator", "DeFi", "Lending/Borrowing", "Staking"],
-    "features": []
-  },
-  {
-    "url": "https://app.superfluid.org",
-    "name": "Superfluid",
-    "description": "Superfluid is the money streaming protocol. Earn every second.",
-    "iconUrl": "https://safe-transaction-assets.safe.global/safe_apps/3ee85376-cff1-497a-a9d8-51c0e5234c6e/icon.png",
-    "chainIds": ["1"],
-    "tags": ["Accounting", "DAO Tooling", "Payments"],
     "features": []
   },
   {
